@@ -8,9 +8,15 @@ const DashboardPage = async () => {
   return (
     <div>
       <h1 className="text-2xl fonst-bold mb-5 mt-20 ">Dashboard</h1>
-      <p className="mb-5">Welcom to Dashboard</p>
-      <p> UserID: {userId} </p>
-      <p>username: {user?.username}</p>
+      <p className="mb-10">Welcom to Dashboard</p>
+
+      <div>
+        <p className="text-amber-900 text-2xl"> UserID:</p> {userId}
+      </div>
+      <div className="mt-3">
+        <p className="text-amber-900 text-2xl mt-5">username: </p>
+        {user?.username}
+      </div>
     </div>
   )
 }
