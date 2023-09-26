@@ -9,6 +9,8 @@ const DashboardPage = async () => {
     <div>
       <h1 className="text-2xl fonst-bold mb-5 mt-20 ">Dashboard</h1>
       <p className="mb-5">Welcom to Dashboard</p>
+      <p> UserID: {userId} </p>
+      <p>username: {user?.username}</p>
     </div>
   )
 }
