@@ -1,4 +1,5 @@
 import { UserButton, auth } from '@clerk/nextjs'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -11,11 +12,15 @@ const Header = () => {
         <div className="flex items-center justify-between container">
           <div className="flex items-center font-bold">
             <Link href="/">
-              <div className="text-lg text-white">Clerk Auth</div>
+              <div className="text-lg text-white mr-2">Clerk Auth</div>
             </Link>
+            <Image
+              src="/squirrel3.jpg"
+              width="50"
+              height="50"
+              className="circle"
+            />
           </div>
-
-          {/* <div className="flex items-center font-bold"></div> */}
 
           <div className="flex items-center font-bold">
             <Link href="/repos" className="text-gray-300 hover:text-white mr-4">

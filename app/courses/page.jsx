@@ -25,7 +25,7 @@ const CoursesPage = () => {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">Courses </h1>
+      <h1 className="text-2xl font-bold mb-4 mt-20">Courses </h1>
       <CourseSearch getSearchResults={(results) => setCourses(results)} />
       <Courses courses={courses} />
     </div>

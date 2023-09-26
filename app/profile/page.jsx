@@ -3,7 +3,7 @@ import React from 'react'
 
 export const ProfilePage = () => {
   return (
-    <div>
+    <div className="mt-20">
       <UserProfile />
     </div>
   )

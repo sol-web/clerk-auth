@@ -24,8 +24,8 @@ const ReposPage = async () => {
 
   // key = repo.id, repos가 각각의 repo를 불러옴
   return (
-    <div>
-      <h2 className="text-2xl font-bold mb-4">
+    <div className="item-left">
+      <h2 className="text-2xl font-bold mb-4 mt-20">
         Github Repositories of {username}
       </h2>
       <ul>
@@ -49,7 +49,9 @@ const ReposPage = async () => {
           </li>
         ))}
       </ul>
-      <ul>리포지터리 정보 제공</ul>
+      <div className="text-2xl text-stone-500">
+        --- 리포지터리 정보 제공 ---
+      </div>
     </div>
   )
 }

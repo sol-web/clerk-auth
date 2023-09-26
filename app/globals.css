@@ -6,6 +6,10 @@ body {
   background-color: rgb(255, 211, 167);
 }
 
+.circle {
+  border-radius: 50%;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
