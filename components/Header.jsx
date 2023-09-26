@@ -14,12 +14,16 @@ const Header = () => {
             <Link href="/">
               <div className="text-lg text-white mr-2">Clerk Auth</div>
             </Link>
-            <Image
-              src="/squirrel3.jpg"
-              width="50"
-              height="50"
-              className="circle"
-            />
+            <div className="up">
+              <div className="circle">
+                <img
+                  src="/squirrel3.jpg"
+                  width="50"
+                  height="50"
+                  className="circle"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="flex items-center font-bold">

@@ -6,8 +6,26 @@ body {
   background-color: rgb(255, 211, 167);
 }
 
+/* 이미지 */
+img {
+  transition: all 0.2s linear;
+}
+
+.up {
+  width: 400px;
+  margin: 0% auto;
+}
+.up:hover img {
+  transform: scale(2.5);
+}
 .circle {
   border-radius: 50%;
+}
+
+.home {
+  float: left;
+  width: 1200px;
+  margin-bottom: 35px;
 }
 
 /* :root {

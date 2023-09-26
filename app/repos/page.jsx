@@ -49,7 +49,7 @@ const ReposPage = async () => {
           </li>
         ))}
       </ul>
-      <div className="text-2xl text-stone-500">
+      <div className=" m-10 text-2xl text-stone-500">
         --- 리포지터리 정보 제공 ---
       </div>
     </div>
